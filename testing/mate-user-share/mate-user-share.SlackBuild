@@ -82,6 +82,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --disable-static \
   --with-httpd \
+  --with-gtk=3.0 \
   --build=$ARCH-slackware-linux
 
 make
